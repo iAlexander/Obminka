@@ -44,7 +44,7 @@
 
 /* Begin PBXFileReference section */
 		21EB9734124599EA111E1D1A /* Pods_obminka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_obminka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A0D49871D05AE3500CD5850 /* obminka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = obminka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A0D49871D05AE3500CD5850 /* Обмінка.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Обмінка.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A0D498A1D05AE3500CD5850 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A0D498C1D05AE3500CD5850 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2A0D498F1D05AE3600CD5850 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -52,10 +52,10 @@
 		2A0D49941D05AE3600CD5850 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A0D49971D05AE3600CD5850 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A0D49991D05AE3600CD5850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A0D499E1D05AE3600CD5850 /* obminkaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = obminkaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A0D499E1D05AE3600CD5850 /* Обмінка.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Обмінка.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A0D49A21D05AE3600CD5850 /* obminkaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = obminkaTests.swift; sourceTree = "<group>"; };
 		2A0D49A41D05AE3600CD5850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A0D49A91D05AE3600CD5850 /* obminkaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = obminkaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A0D49A91D05AE3600CD5850 /* Обмінка.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Обмінка.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A0D49AD1D05AE3600CD5850 /* obminkaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = obminkaUITests.swift; sourceTree = "<group>"; };
 		2A0D49AF1D05AE3600CD5850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A0D49BB1D05AF0300CD5850 /* obminka.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = obminka.entitlements; sourceTree = "<group>"; };
@@ -138,9 +138,9 @@
 		2A0D49881D05AE3500CD5850 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2A0D49871D05AE3500CD5850 /* obminka.app */,
-				2A0D499E1D05AE3600CD5850 /* obminkaTests.xctest */,
-				2A0D49A91D05AE3600CD5850 /* obminkaUITests.xctest */,
+				2A0D49871D05AE3500CD5850 /* Обмінка.app */,
+				2A0D499E1D05AE3600CD5850 /* Обмінка.xctest */,
+				2A0D49A91D05AE3600CD5850 /* Обмінка.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -209,7 +209,7 @@
 			);
 			name = obminka;
 			productName = obminka;
-			productReference = 2A0D49871D05AE3500CD5850 /* obminka.app */;
+			productReference = 2A0D49871D05AE3500CD5850 /* Обмінка.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2A0D499D1D05AE3600CD5850 /* obminkaTests */ = {
@@ -230,7 +230,7 @@
 			);
 			name = obminkaTests;
 			productName = obminkaTests;
-			productReference = 2A0D499E1D05AE3600CD5850 /* obminkaTests.xctest */;
+			productReference = 2A0D499E1D05AE3600CD5850 /* Обмінка.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		2A0D49A81D05AE3600CD5850 /* obminkaUITests */ = {
@@ -250,7 +250,7 @@
 			);
 			name = obminkaUITests;
 			productName = obminkaUITests;
-			productReference = 2A0D49A91D05AE3600CD5850 /* obminkaUITests.xctest */;
+			productReference = 2A0D49A91D05AE3600CD5850 /* Обмінка.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -294,7 +294,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2A0D49821D05AE3500CD5850 /* Build configuration list for PBXProject "obminka" */;
+			buildConfigurationList = 2A0D49821D05AE3500CD5850 /* Build configuration list for PBXProject "Обмінка" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -620,7 +620,7 @@
 				INFOPLIST_FILE = obminka/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iashchuk.obminka;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Обмінка";
 			};
 			name = Debug;
 		};
@@ -634,7 +634,7 @@
 				INFOPLIST_FILE = obminka/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iashchuk.obminka;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Обмінка";
 			};
 			name = Release;
 		};
@@ -646,7 +646,7 @@
 				INFOPLIST_FILE = obminkaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iashchuk.obminkaTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Обмінка";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/obminka.app/obminka";
 			};
 			name = Debug;
@@ -659,7 +659,7 @@
 				INFOPLIST_FILE = obminkaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iashchuk.obminkaTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Обмінка";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/obminka.app/obminka";
 			};
 			name = Release;
@@ -671,7 +671,7 @@
 				INFOPLIST_FILE = obminkaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iashchuk.obminkaUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Обмінка";
 				TEST_TARGET_NAME = obminka;
 			};
 			name = Debug;
@@ -683,7 +683,7 @@
 				INFOPLIST_FILE = obminkaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iashchuk.obminkaUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Обмінка";
 				TEST_TARGET_NAME = obminka;
 			};
 			name = Release;
@@ -691,7 +691,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2A0D49821D05AE3500CD5850 /* Build configuration list for PBXProject "obminka" */ = {
+		2A0D49821D05AE3500CD5850 /* Build configuration list for PBXProject "Обмінка" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A0D49B01D05AE3600CD5850 /* Debug */,

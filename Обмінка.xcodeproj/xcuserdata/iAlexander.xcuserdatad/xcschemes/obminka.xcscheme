@@ -17,7 +17,7 @@
                BlueprintIdentifier = "2A0D49861D05AE3500CD5850"
                BuildableName = "obminka.app"
                BlueprintName = "obminka"
-               ReferencedContainer = "container:obminka.xcodeproj">
+               ReferencedContainer = "container:&#x41e;&#x431;&#x43c;&#x456;&#x43d;&#x43a;&#x430;.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "2A0D499D1D05AE3600CD5850"
                BuildableName = "obminkaTests.xctest"
                BlueprintName = "obminkaTests"
-               ReferencedContainer = "container:obminka.xcodeproj">
+               ReferencedContainer = "container:&#x41e;&#x431;&#x43c;&#x456;&#x43d;&#x43a;&#x430;.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "2A0D49A81D05AE3600CD5850"
                BuildableName = "obminkaUITests.xctest"
                BlueprintName = "obminkaUITests"
-               ReferencedContainer = "container:obminka.xcodeproj">
+               ReferencedContainer = "container:&#x41e;&#x431;&#x43c;&#x456;&#x43d;&#x43a;&#x430;.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,7 +55,7 @@
             BlueprintIdentifier = "2A0D49861D05AE3500CD5850"
             BuildableName = "obminka.app"
             BlueprintName = "obminka"
-            ReferencedContainer = "container:obminka.xcodeproj">
+            ReferencedContainer = "container:&#x41e;&#x431;&#x43c;&#x456;&#x43d;&#x43a;&#x430;.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -78,7 +78,7 @@
             BlueprintIdentifier = "2A0D49861D05AE3500CD5850"
             BuildableName = "obminka.app"
             BlueprintName = "obminka"
-            ReferencedContainer = "container:obminka.xcodeproj">
+            ReferencedContainer = "container:&#x41e;&#x431;&#x43c;&#x456;&#x43d;&#x43a;&#x430;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -97,7 +97,7 @@
             BlueprintIdentifier = "2A0D49861D05AE3500CD5850"
             BuildableName = "obminka.app"
             BlueprintName = "obminka"
-            ReferencedContainer = "container:obminka.xcodeproj">
+            ReferencedContainer = "container:&#x41e;&#x431;&#x43c;&#x456;&#x43d;&#x43a;&#x430;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
