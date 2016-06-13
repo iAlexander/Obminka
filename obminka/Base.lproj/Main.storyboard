@@ -23,11 +23,19 @@
                                 <color key="textColor" red="0.93333333330000001" green="0.92941176469999998" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Сервіс для легкого обміну валюти" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4iv-GC-1Uu">
+                                <rect key="frame" x="163" y="326" width="275" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.93333333330000001" green="0.92941176469999998" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.12156862745098039" green="0.12156862745098039" blue="0.18431372549019609" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="3y9-UR-614" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="TJR-Oh-c2P"/>
-                            <constraint firstItem="3y9-UR-614" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dRD-c2-B7J"/>
+                            <constraint firstItem="3y9-UR-614" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NAx-3l-cgD"/>
+                            <constraint firstItem="3y9-UR-614" firstAttribute="centerX" secondItem="4iv-GC-1Uu" secondAttribute="centerX" id="Oq2-0N-9fz"/>
+                            <constraint firstItem="4iv-GC-1Uu" firstAttribute="top" secondItem="3y9-UR-614" secondAttribute="bottom" constant="8" symbolic="YES" id="p6q-88-4ck"/>
+                            <constraint firstItem="3y9-UR-614" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="uxb-Ze-H2A"/>
                         </constraints>
                     </view>
                 </viewController>
