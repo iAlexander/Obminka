@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		039C964423E95F0DCD9E1CBC /* Pods_obminkaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11BA0DCD5A093E6184BDB3B /* Pods_obminkaTests.framework */; };
 		2A0D498B1D05AE3500CD5850 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0D498A1D05AE3500CD5850 /* AppDelegate.swift */; };
 		2A0D498D1D05AE3500CD5850 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0D498C1D05AE3500CD5850 /* ViewController.swift */; };
 		2A0D49901D05AE3600CD5850 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A0D498E1D05AE3600CD5850 /* Main.storyboard */; };
@@ -20,9 +19,6 @@
 		2A0D49C21D05B50900CD5850 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0D49C01D05B50900CD5850 /* CFNetwork.framework */; };
 		2A0D49C31D05B50900CD5850 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0D49C11D05B50900CD5850 /* CoreLocation.framework */; };
 		2A0D49C51D05B52400CD5850 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0D49C41D05B52400CD5850 /* StoreKit.framework */; };
-		2AD424F21D0EABD8005C12B9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2AD424F11D0EABD8005C12B9 /* GoogleService-Info.plist */; };
-		5853E5D9C4602E909B45A0E2 /* Pods_obminka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21EB9734124599EA111E1D1A /* Pods_obminka.framework */; };
-		F8D3438F0EE35647CD13B958 /* Pods_obminkaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6355B77EB00F23EB6E0E20 /* Pods_obminkaUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +39,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		21EB9734124599EA111E1D1A /* Pods_obminka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_obminka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A0D49871D05AE3500CD5850 /* Обмінка.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Обмінка.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A0D498A1D05AE3500CD5850 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A0D498C1D05AE3500CD5850 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,15 +58,6 @@
 		2A0D49C01D05B50900CD5850 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		2A0D49C11D05B50900CD5850 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		2A0D49C41D05B52400CD5850 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		2AD424F11D0EABD8005C12B9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		77A838C74B919D9E61722ABD /* Pods-obminkaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-obminkaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-obminkaTests/Pods-obminkaTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7B6355B77EB00F23EB6E0E20 /* Pods_obminkaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_obminkaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D24C54C42494EA1A4D13437 /* Pods-obminka.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-obminka.debug.xcconfig"; path = "Pods/Target Support Files/Pods-obminka/Pods-obminka.debug.xcconfig"; sourceTree = "<group>"; };
-		ACF86108BFDC32497919411E /* Pods-obminka.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-obminka.release.xcconfig"; path = "Pods/Target Support Files/Pods-obminka/Pods-obminka.release.xcconfig"; sourceTree = "<group>"; };
-		BAB4DC503A701FB30662B910 /* Pods-obminkaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-obminkaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-obminkaUITests/Pods-obminkaUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		C11BA0DCD5A093E6184BDB3B /* Pods_obminkaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_obminkaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2804F33EA10BC05C71A4E92 /* Pods-obminkaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-obminkaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-obminkaTests/Pods-obminkaTests.release.xcconfig"; sourceTree = "<group>"; };
-		E23C68A497AB03153FA48C9E /* Pods-obminkaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-obminkaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-obminkaUITests/Pods-obminkaUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +69,6 @@
 				2A0D49C31D05B50900CD5850 /* CoreLocation.framework in Frameworks */,
 				2A0D49BF1D05AF7E00CD5850 /* CloudKit.framework in Frameworks */,
 				2A0D49C51D05B52400CD5850 /* StoreKit.framework in Frameworks */,
-				5853E5D9C4602E909B45A0E2 /* Pods_obminka.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +76,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				039C964423E95F0DCD9E1CBC /* Pods_obminkaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,39 +83,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8D3438F0EE35647CD13B958 /* Pods_obminkaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		24A5F56187498768DE29C1B0 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8D24C54C42494EA1A4D13437 /* Pods-obminka.debug.xcconfig */,
-				ACF86108BFDC32497919411E /* Pods-obminka.release.xcconfig */,
-				77A838C74B919D9E61722ABD /* Pods-obminkaTests.debug.xcconfig */,
-				D2804F33EA10BC05C71A4E92 /* Pods-obminkaTests.release.xcconfig */,
-				BAB4DC503A701FB30662B910 /* Pods-obminkaUITests.debug.xcconfig */,
-				E23C68A497AB03153FA48C9E /* Pods-obminkaUITests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		2A0D497E1D05AE3500CD5850 = {
 			isa = PBXGroup;
 			children = (
-				2A0D49C41D05B52400CD5850 /* StoreKit.framework */,
-				2A0D49C01D05B50900CD5850 /* CFNetwork.framework */,
-				2A0D49C11D05B50900CD5850 /* CoreLocation.framework */,
-				2A0D49BE1D05AF7E00CD5850 /* CloudKit.framework */,
 				2A0D49891D05AE3500CD5850 /* obminka */,
 				2A0D49A11D05AE3600CD5850 /* obminkaTests */,
 				2A0D49AC1D05AE3600CD5850 /* obminkaUITests */,
 				2A0D49881D05AE3500CD5850 /* Products */,
-				24A5F56187498768DE29C1B0 /* Pods */,
-				8885FD875850B58F5128A4A2 /* Frameworks */,
+				2A0D49C41D05B52400CD5850 /* StoreKit.framework */,
+				2A0D49C01D05B50900CD5850 /* CFNetwork.framework */,
+				2A0D49C11D05B50900CD5850 /* CoreLocation.framework */,
+				2A0D49BE1D05AF7E00CD5850 /* CloudKit.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,7 +123,6 @@
 				2A0D49941D05AE3600CD5850 /* Assets.xcassets */,
 				2A0D49961D05AE3600CD5850 /* LaunchScreen.storyboard */,
 				2A0D49991D05AE3600CD5850 /* Info.plist */,
-				2AD424F11D0EABD8005C12B9 /* GoogleService-Info.plist */,
 				2A0D49911D05AE3600CD5850 /* obminka.xcdatamodeld */,
 			);
 			path = obminka;
@@ -179,16 +146,6 @@
 			path = obminkaUITests;
 			sourceTree = "<group>";
 		};
-		8885FD875850B58F5128A4A2 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				21EB9734124599EA111E1D1A /* Pods_obminka.framework */,
-				C11BA0DCD5A093E6184BDB3B /* Pods_obminkaTests.framework */,
-				7B6355B77EB00F23EB6E0E20 /* Pods_obminkaUITests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -196,12 +153,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A0D49B21D05AE3600CD5850 /* Build configuration list for PBXNativeTarget "obminka" */;
 			buildPhases = (
-				91EF448389D44B829AA6880B /* 📦 Check Pods Manifest.lock */,
 				2A0D49831D05AE3500CD5850 /* Sources */,
 				2A0D49841D05AE3500CD5850 /* Frameworks */,
 				2A0D49851D05AE3500CD5850 /* Resources */,
-				CF941C359627153ACDDC41C5 /* 📦 Embed Pods Frameworks */,
-				43339718BC0B549C1866AE88 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -320,7 +274,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A0D49981D05AE3600CD5850 /* LaunchScreen.storyboard in Resources */,
-				2AD424F21D0EABD8005C12B9 /* GoogleService-Info.plist in Resources */,
 				2A0D49951D05AE3600CD5850 /* Assets.xcassets in Resources */,
 				2A0D49901D05AE3600CD5850 /* Main.storyboard in Resources */,
 			);
@@ -358,37 +311,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-obminkaUITests/Pods-obminkaUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		43339718BC0B549C1866AE88 /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-obminka/Pods-obminka-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		55497F9188E230BF2EE0BDE7 /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		91EF448389D44B829AA6880B /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -431,21 +354,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		CF941C359627153ACDDC41C5 /* 📦 Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-obminka/Pods-obminka-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E87C5AFD5A7D55BE27A60282 /* 📦 Embed Pods Frameworks */ = {
@@ -612,7 +520,6 @@
 		};
 		2A0D49B31D05AE3600CD5850 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D24C54C42494EA1A4D13437 /* Pods-obminka.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = obminka/obminka.entitlements;
@@ -626,7 +533,6 @@
 		};
 		2A0D49B41D05AE3600CD5850 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ACF86108BFDC32497919411E /* Pods-obminka.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = obminka/obminka.entitlements;
@@ -640,7 +546,6 @@
 		};
 		2A0D49B61D05AE3600CD5850 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77A838C74B919D9E61722ABD /* Pods-obminkaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = obminkaTests/Info.plist;
@@ -653,7 +558,6 @@
 		};
 		2A0D49B71D05AE3600CD5850 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2804F33EA10BC05C71A4E92 /* Pods-obminkaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = obminkaTests/Info.plist;
@@ -666,7 +570,6 @@
 		};
 		2A0D49B91D05AE3600CD5850 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BAB4DC503A701FB30662B910 /* Pods-obminkaUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = obminkaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -678,7 +581,6 @@
 		};
 		2A0D49BA1D05AE3600CD5850 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E23C68A497AB03153FA48C9E /* Pods-obminkaUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = obminkaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -698,7 +600,7 @@
 				2A0D49B11D05AE3600CD5850 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		2A0D49B21D05AE3600CD5850 /* Build configuration list for PBXNativeTarget "obminka" */ = {
 			isa = XCConfigurationList;
@@ -707,7 +609,7 @@
 				2A0D49B41D05AE3600CD5850 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		2A0D49B51D05AE3600CD5850 /* Build configuration list for PBXNativeTarget "obminkaTests" */ = {
 			isa = XCConfigurationList;
@@ -716,7 +618,7 @@
 				2A0D49B71D05AE3600CD5850 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		2A0D49B81D05AE3600CD5850 /* Build configuration list for PBXNativeTarget "obminkaUITests" */ = {
 			isa = XCConfigurationList;
@@ -725,7 +627,7 @@
 				2A0D49BA1D05AE3600CD5850 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 
