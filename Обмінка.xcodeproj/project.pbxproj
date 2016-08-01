@@ -15,10 +15,6 @@
 		2A0D49981D05AE3600CD5850 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A0D49961D05AE3600CD5850 /* LaunchScreen.storyboard */; };
 		2A0D49A31D05AE3600CD5850 /* obminkaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0D49A21D05AE3600CD5850 /* obminkaTests.swift */; };
 		2A0D49AE1D05AE3600CD5850 /* obminkaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0D49AD1D05AE3600CD5850 /* obminkaUITests.swift */; };
-		2A0D49BF1D05AF7E00CD5850 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0D49BE1D05AF7E00CD5850 /* CloudKit.framework */; };
-		2A0D49C21D05B50900CD5850 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0D49C01D05B50900CD5850 /* CFNetwork.framework */; };
-		2A0D49C31D05B50900CD5850 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0D49C11D05B50900CD5850 /* CoreLocation.framework */; };
-		2A0D49C51D05B52400CD5850 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0D49C41D05B52400CD5850 /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,11 +49,6 @@
 		2A0D49A91D05AE3600CD5850 /* Обмінка.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Обмінка.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A0D49AD1D05AE3600CD5850 /* obminkaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = obminkaUITests.swift; sourceTree = "<group>"; };
 		2A0D49AF1D05AE3600CD5850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A0D49BB1D05AF0300CD5850 /* obminka.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = obminka.entitlements; sourceTree = "<group>"; };
-		2A0D49BE1D05AF7E00CD5850 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
-		2A0D49C01D05B50900CD5850 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		2A0D49C11D05B50900CD5850 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		2A0D49C41D05B52400CD5850 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,10 +56,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A0D49C21D05B50900CD5850 /* CFNetwork.framework in Frameworks */,
-				2A0D49C31D05B50900CD5850 /* CoreLocation.framework in Frameworks */,
-				2A0D49BF1D05AF7E00CD5850 /* CloudKit.framework in Frameworks */,
-				2A0D49C51D05B52400CD5850 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,10 +83,6 @@
 				2A0D49A11D05AE3600CD5850 /* obminkaTests */,
 				2A0D49AC1D05AE3600CD5850 /* obminkaUITests */,
 				2A0D49881D05AE3500CD5850 /* Products */,
-				2A0D49C41D05B52400CD5850 /* StoreKit.framework */,
-				2A0D49C01D05B50900CD5850 /* CFNetwork.framework */,
-				2A0D49C11D05B50900CD5850 /* CoreLocation.framework */,
-				2A0D49BE1D05AF7E00CD5850 /* CloudKit.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,7 +99,6 @@
 		2A0D49891D05AE3500CD5850 /* obminka */ = {
 			isa = PBXGroup;
 			children = (
-				2A0D49BB1D05AF0300CD5850 /* obminka.entitlements */,
 				2A0D498A1D05AE3500CD5850 /* AppDelegate.swift */,
 				2A0D498C1D05AE3500CD5850 /* ViewController.swift */,
 				2A0D498E1D05AE3600CD5850 /* Main.storyboard */,
@@ -222,19 +204,22 @@
 						DevelopmentTeam = 3NL9BUS2QV;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.DataProtection = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.InAppPurchase = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.Push = {
-								enabled = 1;
+								enabled = 0;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 0;
 							};
 							com.apple.iCloud = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -522,7 +507,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = obminka/obminka.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = obminka/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -535,7 +519,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = obminka/obminka.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = obminka/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
