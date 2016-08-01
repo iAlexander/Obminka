@@ -15,7 +15,7 @@
 		2A0D49981D05AE3600CD5850 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A0D49961D05AE3600CD5850 /* LaunchScreen.storyboard */; };
 		2A0D49A31D05AE3600CD5850 /* obminkaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0D49A21D05AE3600CD5850 /* obminkaTests.swift */; };
 		2A0D49AE1D05AE3600CD5850 /* obminkaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0D49AD1D05AE3600CD5850 /* obminkaUITests.swift */; };
-		2A917C0B1D4F41EB008F0DB7 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A917C0A1D4F41EB008F0DB7 /* CloudKit.framework */; };
+		2AB6D4C21D4FB22900847115 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB6D4C11D4FB22900847115 /* CloudKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +51,7 @@
 		2A0D49AD1D05AE3600CD5850 /* obminkaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = obminkaUITests.swift; sourceTree = "<group>"; };
 		2A0D49AF1D05AE3600CD5850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A917C091D4F41E9008F0DB7 /* Обмінка.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Обмінка.entitlements"; sourceTree = "<group>"; };
-		2A917C0A1D4F41EB008F0DB7 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		2AB6D4C11D4FB22900847115 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A917C0B1D4F41EB008F0DB7 /* CloudKit.framework in Frameworks */,
+				2AB6D4C21D4FB22900847115 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,7 +87,7 @@
 				2A0D49A11D05AE3600CD5850 /* obminkaTests */,
 				2A0D49AC1D05AE3600CD5850 /* obminkaUITests */,
 				2A0D49881D05AE3500CD5850 /* Products */,
-				2A917C0A1D4F41EB008F0DB7 /* CloudKit.framework */,
+				2AB6D4C11D4FB22900847115 /* CloudKit.framework */,
 			);
 			sourceTree = "<group>";
 		};

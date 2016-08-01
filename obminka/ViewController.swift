@@ -14,45 +14,33 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view, typically from a nib.
-        var artworkRecordID = CKRecordID(recordName: "110")
+
+        var artworkRecordID = CKRecordID(recordName: UIDevice.currentDevice().identifierForVendor!.UUIDString)
         var artworkRecord = CKRecord(recordType: "Artwork", recordID: artworkRecordID)
-        artworkRecord["title" ] = "MacKerricher State Park"
-        artworkRecord["artist"] = "Mei Chen"
-        artworkRecord["address"] = "Fort Bragg, CA"
-        
-//        CKContainer *myContainer = [CKContainer defaultContainer];
+        artworkRecordID = CKRecordID(recordName: "Rates")
+        artworkRecord = CKRecord(recordType: "EUR", recordID: artworkRecordID)
+        artworkRecord["user"] = "Alexander"
+        artworkRecord["Title"] = "Sir"
         var myContainer = CKContainer.defaultContainer()
-        
-//        CKDatabase *publicDatabase = [myContainer publicCloudDatabase];
         var publicDatabase = myContainer.publicCloudDatabase
-        
-//        CKDatabase *privateDatabase = [myContainer privateCloudDatabase];
         var privateDatabase = myContainer.privateCloudDatabase
         
-        
-//        [publicDatabase saveRecord:artworkRecord completionHandler:^(CKRecord *artworkRecord, NSError *error){
-//            if (!error) {
-//            // Insert successfully saved record code
-//            }
-//            else {
-//            // Insert error handling
-//            }
-//            }];
         publicDatabase.saveRecord(artworkRecord) { (artworkRecord, error) in
             if (error == nil) {
-                print("Successfully saved record!")
+                NSLog("1publicDatabase: Successfully saved record!")
             } else {
-                print("ERROR!")
+                NSLog("1publicDatabase: ERROR!")
             }
         }
         
         privateDatabase.saveRecord(artworkRecord) { (artworkRecord, error) in
             if (error == nil) {
-                print("Successfully saved record!")
+                NSLog("2privateDatabase: Successfully saved record!")
             } else {
-                print("ERROR!")
+                NSLog("2privateDatabase: ERROR!")
             }
         }
+        
 	}
 
 	override func didReceiveMemoryWarning() {
