@@ -52,6 +52,8 @@
 		2A0D49991D05AE3600CD5850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A5B88281DE7A6EE003779F2 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
 		2A5B88291DE7A6EE003779F2 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		2A679AB31DE7A80100C26A65 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Main.strings; sourceTree = "<group>"; };
+		2A679AB41DE7A80100C26A65 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		2AF60F351DE77E3300309836 /* stickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = stickers.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AF60F371DE77E3300309836 /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
 		2AF60F391DE77E3300309836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -254,6 +256,7 @@
 			children = (
 				2A0D498F1D05AE3600CD5850 /* Base */,
 				2A5B88281DE7A6EE003779F2 /* ru */,
+				2A679AB31DE7A80100C26A65 /* uk */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			children = (
 				2A0D49971D05AE3600CD5850 /* Base */,
 				2A5B88291DE7A6EE003779F2 /* ru */,
+				2A679AB41DE7A80100C26A65 /* uk */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
