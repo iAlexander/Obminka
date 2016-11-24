@@ -15,8 +15,6 @@
 		2A0D49981D05AE3600CD5850 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A0D49961D05AE3600CD5850 /* LaunchScreen.storyboard */; };
 		2AF60F381DE77E3300309836 /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AF60F371DE77E3300309836 /* Stickers.xcassets */; };
 		2AF60F3C1DE77E3300309836 /* stickers.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2AF60F351DE77E3300309836 /* stickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		2AF60F421DE77E9500309836 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 2AF60F411DE77E9500309836 /* Stickers.xcstickers */; };
-		2AF60F431DE77E9500309836 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 2AF60F411DE77E9500309836 /* Stickers.xcstickers */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +53,6 @@
 		2AF60F351DE77E3300309836 /* stickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = stickers.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AF60F371DE77E3300309836 /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
 		2AF60F391DE77E3300309836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2AF60F411DE77E9500309836 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; path = Stickers.xcstickers; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +91,6 @@
 				2A0D498C1D05AE3500CD5850 /* ViewController.swift */,
 				2A0D498E1D05AE3600CD5850 /* Main.storyboard */,
 				2A0D49941D05AE3600CD5850 /* Assets.xcassets */,
-				2AF60F411DE77E9500309836 /* Stickers.xcstickers */,
 				2A0D49961D05AE3600CD5850 /* LaunchScreen.storyboard */,
 				2A0D49991D05AE3600CD5850 /* Info.plist */,
 				2A0D49911D05AE3600CD5850 /* obminka.xcdatamodeld */,
@@ -213,7 +209,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AF60F421DE77E9500309836 /* Stickers.xcstickers in Resources */,
 				2A0D49981D05AE3600CD5850 /* LaunchScreen.storyboard in Resources */,
 				2A0D49951D05AE3600CD5850 /* Assets.xcassets in Resources */,
 				2A0D49901D05AE3600CD5850 /* Main.storyboard in Resources */,
@@ -224,7 +219,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AF60F431DE77E9500309836 /* Stickers.xcstickers in Resources */,
 				2AF60F381DE77E3300309836 /* Stickers.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,7 +387,7 @@
 		2AF60F3E1DE77E3300309836 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "Messages Icon";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -409,7 +403,7 @@
 		2AF60F3F1DE77E3300309836 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "Messages Icon";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -450,6 +444,7 @@
 				2AF60F3F1DE77E3300309836 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

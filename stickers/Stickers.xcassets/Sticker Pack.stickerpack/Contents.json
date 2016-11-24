@@ -1,4 +1,30 @@
 {
+  "stickers" : [
+    {
+      "filename" : "Hryvna.sticker"
+    },
+    {
+      "filename" : "Euro.sticker"
+    },
+    {
+      "filename" : "Dollar.sticker"
+    },
+    {
+      "filename" : "Bitcoin.sticker"
+    },
+    {
+      "filename" : "UAH50.sticker"
+    },
+    {
+      "filename" : "UAH100.sticker"
+    },
+    {
+      "filename" : "UAH200.sticker"
+    },
+    {
+      "filename" : "UAH500.sticker"
+    }
+  ],
   "info" : {
     "version" : 1,
     "author" : "xcode"
