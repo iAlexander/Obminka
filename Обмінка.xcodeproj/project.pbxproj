@@ -13,27 +13,7 @@
 		2A0D49931D05AE3600CD5850 /* obminka.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A0D49911D05AE3600CD5850 /* obminka.xcdatamodeld */; };
 		2A0D49951D05AE3600CD5850 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A0D49941D05AE3600CD5850 /* Assets.xcassets */; };
 		2A0D49981D05AE3600CD5850 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A0D49961D05AE3600CD5850 /* LaunchScreen.storyboard */; };
-		2A0D49A31D05AE3600CD5850 /* obminkaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0D49A21D05AE3600CD5850 /* obminkaTests.swift */; };
-		2A0D49AE1D05AE3600CD5850 /* obminkaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0D49AD1D05AE3600CD5850 /* obminkaUITests.swift */; };
-		2AB6D4C21D4FB22900847115 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB6D4C11D4FB22900847115 /* CloudKit.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		2A0D499F1D05AE3600CD5850 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2A0D497F1D05AE3500CD5850 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2A0D49861D05AE3500CD5850;
-			remoteInfo = obminka;
-		};
-		2A0D49AA1D05AE3600CD5850 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2A0D497F1D05AE3500CD5850 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2A0D49861D05AE3500CD5850;
-			remoteInfo = obminka;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2A0D49871D05AE3500CD5850 /* Обмінка.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Обмінка.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,33 +24,10 @@
 		2A0D49941D05AE3600CD5850 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A0D49971D05AE3600CD5850 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A0D49991D05AE3600CD5850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A0D499E1D05AE3600CD5850 /* Обмінка.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Обмінка.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A0D49A21D05AE3600CD5850 /* obminkaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = obminkaTests.swift; sourceTree = "<group>"; };
-		2A0D49A41D05AE3600CD5850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A0D49A91D05AE3600CD5850 /* Обмінка.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Обмінка.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A0D49AD1D05AE3600CD5850 /* obminkaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = obminkaUITests.swift; sourceTree = "<group>"; };
-		2A0D49AF1D05AE3600CD5850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A917C091D4F41E9008F0DB7 /* Обмінка.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Обмінка.entitlements"; sourceTree = "<group>"; };
-		2AB6D4C11D4FB22900847115 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2A0D49841D05AE3500CD5850 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2AB6D4C21D4FB22900847115 /* CloudKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2A0D499B1D05AE3600CD5850 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2A0D49A61D05AE3600CD5850 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -84,10 +41,7 @@
 			isa = PBXGroup;
 			children = (
 				2A0D49891D05AE3500CD5850 /* obminka */,
-				2A0D49A11D05AE3600CD5850 /* obminkaTests */,
-				2A0D49AC1D05AE3600CD5850 /* obminkaUITests */,
 				2A0D49881D05AE3500CD5850 /* Products */,
-				2AB6D4C11D4FB22900847115 /* CloudKit.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,8 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				2A0D49871D05AE3500CD5850 /* Обмінка.app */,
-				2A0D499E1D05AE3600CD5850 /* Обмінка.xctest */,
-				2A0D49A91D05AE3600CD5850 /* Обмінка.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,7 +56,6 @@
 		2A0D49891D05AE3500CD5850 /* obminka */ = {
 			isa = PBXGroup;
 			children = (
-				2A917C091D4F41E9008F0DB7 /* Обмінка.entitlements */,
 				2A0D498A1D05AE3500CD5850 /* AppDelegate.swift */,
 				2A0D498C1D05AE3500CD5850 /* ViewController.swift */,
 				2A0D498E1D05AE3600CD5850 /* Main.storyboard */,
@@ -114,24 +65,6 @@
 				2A0D49911D05AE3600CD5850 /* obminka.xcdatamodeld */,
 			);
 			path = obminka;
-			sourceTree = "<group>";
-		};
-		2A0D49A11D05AE3600CD5850 /* obminkaTests */ = {
-			isa = PBXGroup;
-			children = (
-				2A0D49A21D05AE3600CD5850 /* obminkaTests.swift */,
-				2A0D49A41D05AE3600CD5850 /* Info.plist */,
-			);
-			path = obminkaTests;
-			sourceTree = "<group>";
-		};
-		2A0D49AC1D05AE3600CD5850 /* obminkaUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2A0D49AD1D05AE3600CD5850 /* obminkaUITests.swift */,
-				2A0D49AF1D05AE3600CD5850 /* Info.plist */,
-			);
-			path = obminkaUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,47 +87,6 @@
 			productReference = 2A0D49871D05AE3500CD5850 /* Обмінка.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2A0D499D1D05AE3600CD5850 /* obminkaTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2A0D49B51D05AE3600CD5850 /* Build configuration list for PBXNativeTarget "obminkaTests" */;
-			buildPhases = (
-				55497F9188E230BF2EE0BDE7 /* 📦 Check Pods Manifest.lock */,
-				2A0D499A1D05AE3600CD5850 /* Sources */,
-				2A0D499B1D05AE3600CD5850 /* Frameworks */,
-				2A0D499C1D05AE3600CD5850 /* Resources */,
-				E87C5AFD5A7D55BE27A60282 /* 📦 Embed Pods Frameworks */,
-				A3EE0246664E51D54CAC8818 /* 📦 Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2A0D49A01D05AE3600CD5850 /* PBXTargetDependency */,
-			);
-			name = obminkaTests;
-			productName = obminkaTests;
-			productReference = 2A0D499E1D05AE3600CD5850 /* Обмінка.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		2A0D49A81D05AE3600CD5850 /* obminkaUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2A0D49B81D05AE3600CD5850 /* Build configuration list for PBXNativeTarget "obminkaUITests" */;
-			buildPhases = (
-				C74186ECB3727AA98771CB87 /* 📦 Check Pods Manifest.lock */,
-				2A0D49A51D05AE3600CD5850 /* Sources */,
-				2A0D49A61D05AE3600CD5850 /* Frameworks */,
-				2A0D49A71D05AE3600CD5850 /* Resources */,
-				081302AE3B207878D0AB8C81 /* 📦 Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2A0D49AB1D05AE3600CD5850 /* PBXTargetDependency */,
-			);
-			name = obminkaUITests;
-			productName = obminkaUITests;
-			productReference = 2A0D49A91D05AE3600CD5850 /* Обмінка.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,12 +94,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Alexander Iashchuk";
 				TargetAttributes = {
 					2A0D49861D05AE3500CD5850 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 3NL9BUS2QV;
+						LastSwiftMigration = 0810;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 0;
@@ -225,17 +118,9 @@
 								enabled = 0;
 							};
 							com.apple.iCloud = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
-					};
-					2A0D499D1D05AE3600CD5850 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 2A0D49861D05AE3500CD5850;
-					};
-					2A0D49A81D05AE3600CD5850 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 2A0D49861D05AE3500CD5850;
 					};
 				};
 			};
@@ -253,8 +138,6 @@
 			projectRoot = "";
 			targets = (
 				2A0D49861D05AE3500CD5850 /* obminka */,
-				2A0D499D1D05AE3600CD5850 /* obminkaTests */,
-				2A0D49A81D05AE3600CD5850 /* obminkaUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -270,99 +153,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2A0D499C1D05AE3600CD5850 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2A0D49A71D05AE3600CD5850 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		081302AE3B207878D0AB8C81 /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-obminkaUITests/Pods-obminkaUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		55497F9188E230BF2EE0BDE7 /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		A3EE0246664E51D54CAC8818 /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-obminkaTests/Pods-obminkaTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C74186ECB3727AA98771CB87 /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		E87C5AFD5A7D55BE27A60282 /* 📦 Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-obminkaTests/Pods-obminkaTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2A0D49831D05AE3500CD5850 /* Sources */ = {
@@ -375,36 +166,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2A0D499A1D05AE3600CD5850 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2A0D49A31D05AE3600CD5850 /* obminkaTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2A0D49A51D05AE3600CD5850 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2A0D49AE1D05AE3600CD5850 /* obminkaUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		2A0D49A01D05AE3600CD5850 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2A0D49861D05AE3500CD5850 /* obminka */;
-			targetProxy = 2A0D499F1D05AE3600CD5850 /* PBXContainerItemProxy */;
-		};
-		2A0D49AB1D05AE3600CD5850 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2A0D49861D05AE3500CD5850 /* obminka */;
-			targetProxy = 2A0D49AA1D05AE3600CD5850 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2A0D498E1D05AE3600CD5850 /* Main.storyboard */ = {
@@ -440,8 +202,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -463,7 +227,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -485,8 +249,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -502,9 +268,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -513,13 +280,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "obminka/Обмінка.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = obminka/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iashchuk.obminka;
 				PRODUCT_NAME = "Обмінка";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -527,59 +294,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "obminka/Обмінка.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = obminka/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iashchuk.obminka;
 				PRODUCT_NAME = "Обмінка";
-			};
-			name = Release;
-		};
-		2A0D49B61D05AE3600CD5850 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = obminkaTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iashchuk.obminkaTests;
-				PRODUCT_NAME = "Обмінка";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/obminka.app/obminka";
-			};
-			name = Debug;
-		};
-		2A0D49B71D05AE3600CD5850 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = obminkaTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iashchuk.obminkaTests;
-				PRODUCT_NAME = "Обмінка";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/obminka.app/obminka";
-			};
-			name = Release;
-		};
-		2A0D49B91D05AE3600CD5850 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = obminkaUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iashchuk.obminkaUITests;
-				PRODUCT_NAME = "Обмінка";
-				TEST_TARGET_NAME = obminka;
-			};
-			name = Debug;
-		};
-		2A0D49BA1D05AE3600CD5850 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = obminkaUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iashchuk.obminkaUITests;
-				PRODUCT_NAME = "Обмінка";
-				TEST_TARGET_NAME = obminka;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -600,24 +321,6 @@
 			buildConfigurations = (
 				2A0D49B31D05AE3600CD5850 /* Debug */,
 				2A0D49B41D05AE3600CD5850 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2A0D49B51D05AE3600CD5850 /* Build configuration list for PBXNativeTarget "obminkaTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2A0D49B61D05AE3600CD5850 /* Debug */,
-				2A0D49B71D05AE3600CD5850 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2A0D49B81D05AE3600CD5850 /* Build configuration list for PBXNativeTarget "obminkaUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2A0D49B91D05AE3600CD5850 /* Debug */,
-				2A0D49BA1D05AE3600CD5850 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
