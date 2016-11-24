@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>stickers.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>2A0D49A81D05AE3600CD5850</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2AF60F341DE77E3300309836</key>
 		<dict>
 			<key>primary</key>
 			<true/>
