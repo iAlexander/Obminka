@@ -42,7 +42,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2A0D49871D05AE3500CD5850 /* Обмінка.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Обмінка.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A0D49871D05AE3500CD5850 /* obminka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = obminka.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A0D498A1D05AE3500CD5850 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A0D498C1D05AE3500CD5850 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2A0D498F1D05AE3600CD5850 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -50,6 +50,8 @@
 		2A0D49941D05AE3600CD5850 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A0D49971D05AE3600CD5850 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A0D49991D05AE3600CD5850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A5B88281DE7A6EE003779F2 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		2A5B88291DE7A6EE003779F2 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		2AF60F351DE77E3300309836 /* stickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = stickers.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AF60F371DE77E3300309836 /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
 		2AF60F391DE77E3300309836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,7 +80,7 @@
 		2A0D49881D05AE3500CD5850 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2A0D49871D05AE3500CD5850 /* Обмінка.app */,
+				2A0D49871D05AE3500CD5850 /* obminka.app */,
 				2AF60F351DE77E3300309836 /* stickers.appex */,
 			);
 			name = Products;
@@ -126,7 +128,7 @@
 			);
 			name = obminka;
 			productName = obminka;
-			productReference = 2A0D49871D05AE3500CD5850 /* Обмінка.app */;
+			productReference = 2A0D49871D05AE3500CD5850 /* obminka.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2AF60F341DE77E3300309836 /* stickers */ = {
@@ -186,7 +188,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2A0D49821D05AE3500CD5850 /* Build configuration list for PBXProject "Обмінка" */;
+			buildConfigurationList = 2A0D49821D05AE3500CD5850 /* Build configuration list for PBXProject "obminka" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = uk;
 			hasScannedForEncodings = 0;
@@ -251,6 +253,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				2A0D498F1D05AE3600CD5850 /* Base */,
+				2A5B88281DE7A6EE003779F2 /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				2A0D49971D05AE3600CD5850 /* Base */,
+				2A5B88291DE7A6EE003779F2 /* ru */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -365,7 +369,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iashchuk.obminka;
-				PRODUCT_NAME = "Обмінка";
+				PRODUCT_NAME = obminka;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -379,7 +383,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iashchuk.obminka;
-				PRODUCT_NAME = "Обмінка";
+				PRODUCT_NAME = obminka;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -419,7 +423,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2A0D49821D05AE3500CD5850 /* Build configuration list for PBXProject "Обмінка" */ = {
+		2A0D49821D05AE3500CD5850 /* Build configuration list for PBXProject "obminka" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A0D49B01D05AE3600CD5850 /* Debug */,
