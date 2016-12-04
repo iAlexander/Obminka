@@ -3,7 +3,7 @@
 [![Devices](https://img.shields.io/badge/Devices-iPhone-green.svg?style=flat")](https://ialexander.me/2h1Lmp0)
 [![Version](https://img.shields.io/badge/App version-Beta (in development)-blue.svg?style=flat")](https://ialexander.me/2h1Lmp0)
 
-[![Obminka (Обмінка) - First Ukrainian P2P currency exchange service](https://raw.githubusercontent.com/iAlexander/iHalloween/master/Header.jpg)](https://ialexander.me/2h1Lmp0)
+[![Obminka (Обмінка) - First Ukrainian P2P currency exchange service](https://raw.githubusercontent.com/iAlexander/Obminka/master/Header.jpg)](https://ialexander.me/2h1Lmp0)
 
 ## Obminka (Обмінка) - First Ukrainian P2P currency exchange service
 1. [Description](#description)
