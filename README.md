@@ -18,7 +18,7 @@ This iOS application project is still in development phase, i currently work on 
 ##<a name="license"> License </a>
 
 ```Obminka``` is released under the MIT license. See the ```LICENSE``` file for details  
-Copyright © 2016 Alexander Iashchuk, <a href="https://iashchuk.com">iashchuk.com</a>
+Copyright © 2015-2017 Alexander Iashchuk, <a href="https://iashchuk.com">iashchuk.com</a>
 
 ##<a name="contact"> Contact </a>
 
