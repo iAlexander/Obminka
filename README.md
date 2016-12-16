@@ -12,7 +12,7 @@
 
 ##<a name="description"> Description </a>
 
-```Obminka``` is the innovative service that helps you to exchange money with best rates.  
+```Obminka``` is the innovative p2p service, that helps anyone to exchange money with best rates.  
 This iOS application project is still in development phase, i currently work on the server side.
 
 ##<a name="license"> License </a>
