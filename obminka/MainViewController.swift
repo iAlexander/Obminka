@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import DigitsKit
 
 class MainViewController: UIViewController {
 
@@ -14,6 +15,35 @@ class MainViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let authButton = DGTAuthenticateButton(authenticationCompletion: { (session, error) in
+            if (session != nil) {
+                // TODO: associate the session userID with your user model
+                let message = "Phone number: \(session!.phoneNumber)"
+                let alertController = UIAlertController(title: "You are logged in!", message: message, preferredStyle: .alert)
+                alertController.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: .none))
+                self.present(alertController, animated: true, completion: .none)
+            } else {
+                NSLog("Authentication error: %@", error!.localizedDescription)
+            }
+        })
+        authButton?.center = self.view.center
+        self.view.addSubview(authButton!)
+
+        
+//        let authButton = DGTAuthenticateButton(authenticationCompletion: { (session: DGTSession?, error: NSError?) in
+//            if (session != nil) {
+//                // TODO: associate the session userID with your user model
+//                let message = "Phone number: \(session!.phoneNumber)"
+//                let alertController = UIAlertController(title: "You are logged in!", message: message, preferredStyle: .Alert)
+//                alertController.addAction(UIAlertAction(title: "Cancel", style: .Cancel, handler: .None))
+//                self.presentViewController(alertController, animated: true, completion: .None)
+//            } else {
+//                NSLog("Authentication error: %@", error!.localizedDescription)
+//            }
+//        })
+//        authButton.center = self.view.center
+//        self.view.addSubview(authButton)
     }
 
 	override func didReceiveMemoryWarning() {
@@ -22,7 +52,6 @@ class MainViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        goToFirstView()
     }
     
     override var shouldAutorotate: Bool {
