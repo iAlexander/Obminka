@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // MARK: - Application settings
 
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        Fabric.with([Crashlytics.self, Digits.self])
+        Fabric.with([Answers.self, Digits.self, Crashlytics.self])
 		return true
 	}
 
