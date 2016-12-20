@@ -13,15 +13,25 @@ class MainViewController: UIViewController {
 
     @IBOutlet weak var mainProgressBar: UIProgressView!
     
+    var currentUser = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         let authButton = DGTAuthenticateButton(authenticationCompletion: { (session, error) in
             if (session != nil) {
+                
                 // TODO: associate the session userID with your user model
+                
+                self.currentUser = session!.userID
+                
                 let message = "Phone number: \(session!.phoneNumber)"
                 let alertController = UIAlertController(title: "You are logged in!", message: message, preferredStyle: .alert)
                 alertController.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: .none))
+                alertController.addAction(UIAlertAction(title: "Reset", style: .default, handler: { alertAction in
+                    Digits.sharedInstance().logOut()
+                    alertController.dismiss(animated: true, completion: nil)
+                }))
                 self.present(alertController, animated: true, completion: .none)
             } else {
                 NSLog("Authentication error: %@", error!.localizedDescription)
