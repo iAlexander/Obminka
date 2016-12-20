@@ -10,8 +10,6 @@ import UIKit
 import DigitsKit
 
 class MainViewController: UIViewController {
-
-    @IBOutlet weak var mainProgressBar: UIProgressView!
     
     var currentUser = ""
     
@@ -24,6 +22,7 @@ class MainViewController: UIViewController {
                 // TODO: associate the session userID with your user model
                 
                 self.currentUser = session!.userID
+                print(self.currentUser)
                 
                 let message = "Phone number: \(session!.phoneNumber)"
                 let alertController = UIAlertController(title: "You are logged in!", message: message, preferredStyle: .alert)
