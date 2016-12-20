@@ -65,12 +65,12 @@ class MainViewController: UIViewController {
     
     func makeTheme() -> DGTAppearance {
         let theme = DGTAppearance();
-        theme.bodyFont = UIFont(name: "Noteworthy-Light", size: 16);
-        theme.labelFont = UIFont(name: "Noteworthy-Bold", size: 17);
+//        theme.bodyFont = UIFont(name: "Noteworthy-Light", size: 16);
+//        theme.labelFont = UIFont(name: "Noteworthy-Bold", size: 17);
 //        theme.accentColor = UIColor(red: (255.0/255.0), green: (172/255.0), blue: (238/255.0), alpha: 1);
 //        theme.backgroundColor = UIColor(red: (240.0/255.0), green: (255/255.0), blue: (250/255.0), alpha: 1);
-        theme.accentColor = UIColor.red
-        theme.backgroundColor = UIColor.green
+        theme.accentColor = #colorLiteral(red: 0.9333333333, green: 0.9294117647, blue: 0.8666666667, alpha: 1)
+        theme.backgroundColor = #colorLiteral(red: 0.3176237941, green: 0.5614936352, blue: 0.2197784483, alpha: 1)
         // TODO: set a UIImage as a logo with theme.logoImage
         return theme;
     }
