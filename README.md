@@ -1,6 +1,6 @@
 [![Language](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat")](https://ialexander.me/2h1Lmp0)
-[![Platform](https://img.shields.io/badge/Platform-iOS | watchOS-lightgray.svg?style=flat")](https://ialexander.me/2h1Lmp0)
-[![Devices](https://img.shields.io/badge/Devices-iPhone | Watch-green.svg?style=flat")](https://ialexander.me/2h1Lmp0)
+[![Platform](https://img.shields.io/badge/Platform-iOS 10.1 | watchOS 3.1-lightgray.svg?style=flat")](https://ialexander.me/2h1Lmp0)
+[![Devices](https://img.shields.io/badge/Devices-iPhone | Watch-DAA522.svg?style=flat")](https://ialexander.me/2h1Lmp0)
 [![Version](https://img.shields.io/badge/App version-Alpha (in development)-red.svg?style=flat")](https://ialexander.me/2h1Lmp0)
 
 [![Obminka (Обмінка) - First Ukrainian P2P currency exchange service](https://raw.githubusercontent.com/iAlexander/Obminka/master/Header.jpg)](https://ialexander.me/2h1Lmp0)
