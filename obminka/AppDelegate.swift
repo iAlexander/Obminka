@@ -14,7 +14,6 @@ import Fabric
 import DigitsKit
 import Crashlytics
 
-
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

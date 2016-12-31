@@ -54,9 +54,6 @@
 		2A0D49971D05AE3600CD5850 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A0D49991D05AE3600CD5850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A85B7D81DF58562004CEA82 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		2A8D5D971E18082700D40742 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
-		2A8D5D991E18082900D40742 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
-		2A8D5D9B1E18087400D40742 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Main.strings; sourceTree = "<group>"; };
 		2AF60F351DE77E3300309836 /* stickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = stickers.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AF60F371DE77E3300309836 /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
 		2AF60F391DE77E3300309836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -244,7 +241,6 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				Base,
-				ru,
 				en,
 				uk,
 			);
@@ -398,9 +394,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				2A0D498F1D05AE3600CD5850 /* Base */,
-				2A8D5D971E18082700D40742 /* ru */,
-				2A8D5D991E18082900D40742 /* en */,
-				2A8D5D9B1E18087400D40742 /* uk */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
