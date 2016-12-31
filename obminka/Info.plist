@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-        <key>Fabric</key>
-        <dict>
-            <key>APIKey</key>
-            <string>af1480601e72b3fedc097fc104b9f051bc26da83</string>
-            <key>Kits</key>
-            <array>
-                <dict>
-                    <key>KitInfo</key>
-                    <dict>
-                        <key>consumerKey</key>
-                        <string>SR78dUOXF1npPkxdEi6V9t5d3</string>
-                        <key>consumerSecret</key>
-                        <string>CKIHGiPniVBKPyhkEoKx5q61zrjZYsVrrK2GS5jhTNCho5ClsW</string>
-                    </dict>
-                    <key>KitName</key>
-                    <string>Digits</string>
-                </dict>
-            </array>
-        </dict>
+<dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>uk</string>
 	<key>CFBundleDisplayName</key>
@@ -40,7 +21,26 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>19</string>
+	<string>20</string>
+	<key>Fabric</key>
+	<dict>
+		<key>APIKey</key>
+		<string>af1480601e72b3fedc097fc104b9f051bc26da83</string>
+		<key>Kits</key>
+		<array>
+			<dict>
+				<key>KitInfo</key>
+				<dict>
+					<key>consumerKey</key>
+					<string>SR78dUOXF1npPkxdEi6V9t5d3</string>
+					<key>consumerSecret</key>
+					<string>CKIHGiPniVBKPyhkEoKx5q61zrjZYsVrrK2GS5jhTNCho5ClsW</string>
+				</dict>
+				<key>KitName</key>
+				<string>Digits</string>
+			</dict>
+		</array>
+	</dict>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>

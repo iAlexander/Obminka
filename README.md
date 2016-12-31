@@ -1,5 +1,5 @@
 [![Language](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat")](https://ialexander.me/2h1Lmp0)
-[![Platform](https://img.shields.io/badge/Platform-iOS 10.1 | watchOS 3.1-lightgray.svg?style=flat")](https://ialexander.me/2h1Lmp0)
+[![Platform](https://img.shields.io/badge/Platform-iOS 10.0 | watchOS 3.1-lightgray.svg?style=flat")](https://ialexander.me/2h1Lmp0)
 [![Devices](https://img.shields.io/badge/Devices-iPhone | Watch-DAA522.svg?style=flat")](https://ialexander.me/2h1Lmp0)
 [![Version](https://img.shields.io/badge/App version-Alpha (in development)-red.svg?style=flat")](https://ialexander.me/2h1Lmp0)
 
@@ -13,14 +13,15 @@
 ##<a name="description"> Description </a>
 
 ```Obminka``` is the innovative p2p service, that helps anyone to exchange money with best rates.  
-This iOS application project is still in development phase, i currently work on the server side.
+This iOS application project is still in ```Alpha``` development phase, i currently work on the server side.
 
 ##<a name="license"> License </a>
 
 ```Obminka``` is released under the MIT license. See the ```LICENSE``` file for details  
-Copyright © 2015-2017 Alexander Iashchuk, <a href="https://iashchuk.com">iashchuk.com</a>
+Copyright © 2015 Alexander Iashchuk, <a href="https://iashchuk.com">iashchuk.com</a>
 
 ##<a name="contact"> Contact </a>
 
 You can read, follow or drop me a line on my personal Twitter account - [@iAlexander13](https://twitter.com/iAlexander13)  
-If you find any issues on the project, you can open a ticket. Pull requests are also welcome!
+If you find any issues on the project, you can open a ticket.  
+Pull requests are also welcome!

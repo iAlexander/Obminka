@@ -1,9 +1,9 @@
 
 /* Class = "UILabel"; text = "Сервіс для легкого обміну валюти"; ObjectID = "X2X-Mc-2P1"; */
-"X2X-Mc-2P1.text" = "Сервіс для легкого обміну валюти";
+"X2X-Mc-2P1.text" = "Сервис для простого обмена валюты";
 
 /* Class = "UILabel"; text = "версія 1.0 збірка 13"; ObjectID = "af0-hk-Kfx"; */
-"af0-hk-Kfx.text" = "версія 1.0 збірка 13";
+"af0-hk-Kfx.text" = "версия \"Alpha\" сборка 20";
 
 /* Class = "UILabel"; text = "ОБМІНКА"; ObjectID = "bvB-pX-qdp"; */
-"bvB-pX-qdp.text" = "ОБМІНКА";
+"bvB-pX-qdp.text" = "ОБМЕНКА";

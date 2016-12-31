@@ -1,28 +1,28 @@
 {
   "stickers" : [
     {
-      "filename" : "UAH.sticker"
+      "filename" : "CoinUAH.sticker"
     },
     {
-      "filename" : "EUR.sticker"
+      "filename" : "CoinEUR.sticker"
     },
     {
-      "filename" : "USD.sticker"
+      "filename" : "CoinUSD.sticker"
     },
     {
-      "filename" : "BTC.sticker"
+      "filename" : "CoinBTC.sticker"
     },
     {
-      "filename" : "UAH50.sticker"
+      "filename" : "BillUAH50.sticker"
     },
     {
-      "filename" : "UAH100.sticker"
+      "filename" : "BillUAH100.sticker"
     },
     {
-      "filename" : "UAH200.sticker"
+      "filename" : "BillUAH200.sticker"
     },
     {
-      "filename" : "UAH500.sticker"
+      "filename" : "BillUAH500.sticker"
     }
   ],
   "info" : {

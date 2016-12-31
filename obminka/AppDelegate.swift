@@ -2,8 +2,10 @@
 //  AppDelegate.swift
 //  obminka
 //
-//  Created by Alexander Iashchuk on 6/6/16.
-//  Copyright © 2016 Alexander Iashchuk. All rights reserved.
+//  Created by Alexander Iashchuk on 12/21/15.
+//  Copyright © 2015 Alexander Iashchuk (iAlexander), https://iashchuk.com
+//
+//  This application is released under the MIT license. All rights reserved.
 //
 
 import UIKit
