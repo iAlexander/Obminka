@@ -10,18 +10,18 @@
 2. [License](#license)
 3. [Contact](#contact)
 
-##<a name="description"> Description </a>
+##<a name="description"> Description: </a>
 
 ```Obminka``` is the innovative p2p service, that helps anyone to exchange money with best rates.  
 This iOS application project is still in ```Alpha``` development phase, i currently work on the server side.
 
-##<a name="license"> License </a>
+##<a name="license"> License: </a>
 
-```Obminka``` is released under the MIT license. Check the ```LICENSE``` file for details  
-Copyright © 2015 Alexander Iashchuk, <a href="https://iashchuk.com">iashchuk.com</a>
+```Obminka``` is released under the MIT license. Check the ```LICENSE``` file for details.  
+Copyright © 2015 Alexander Iashchuk, <a href="https://iashchuk.com">iashchuk.com</a>.
 
-##<a name="contact"> Contact </a>
+##<a name="contact"> Contact: </a>
 
-You can read, follow or drop me a line on my personal Twitter account - [@iAlexander13](https://twitter.com/iAlexander13)  
+You can read, follow or drop me a line on my personal Twitter account - [@iAlexander13](https://twitter.com/iAlexander13).  
 If you find any issues on the project, you can open a ticket.  
 Pull requests are also welcome!
