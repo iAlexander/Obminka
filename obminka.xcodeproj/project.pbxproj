@@ -15,6 +15,8 @@
 		2A0D49951D05AE3600CD5850 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A0D49941D05AE3600CD5850 /* Assets.xcassets */; };
 		2A0D49981D05AE3600CD5850 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A0D49961D05AE3600CD5850 /* LaunchScreen.storyboard */; };
 		2A690C481E2285810074816B /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2A690C471E2285810074816B /* Settings.bundle */; };
+		2A690C4A1E2285EB0074816B /* Settings-Watch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2A690C491E2285EB0074816B /* Settings-Watch.bundle */; };
+		2A690C4B1E2285EB0074816B /* Settings-Watch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2A690C491E2285EB0074816B /* Settings-Watch.bundle */; };
 		2A85B7D91DF58562004CEA82 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A85B7D81DF58562004CEA82 /* FirstViewController.swift */; };
 		2AF60F381DE77E3300309836 /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AF60F371DE77E3300309836 /* Stickers.xcassets */; };
 		2AF60F3C1DE77E3300309836 /* stickers.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2AF60F351DE77E3300309836 /* stickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -55,6 +57,7 @@
 		2A0D49971D05AE3600CD5850 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A0D49991D05AE3600CD5850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A690C471E2285810074816B /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		2A690C491E2285EB0074816B /* Settings-Watch.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "Settings-Watch.bundle"; sourceTree = "<group>"; };
 		2A85B7D81DF58562004CEA82 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		2AF60F351DE77E3300309836 /* stickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = stickers.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AF60F371DE77E3300309836 /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
@@ -92,6 +95,7 @@
 			children = (
 				2A0D49891D05AE3500CD5850 /* obminka */,
 				2AF60F361DE77E3300309836 /* stickers */,
+				2A690C491E2285EB0074816B /* Settings-Watch.bundle */,
 				2A0D49881D05AE3500CD5850 /* Products */,
 				8CDC23065FFC72E3C731423E /* Pods */,
 				67F3E4E77DC864D3AFBDF495 /* Frameworks */,
@@ -111,13 +115,13 @@
 			isa = PBXGroup;
 			children = (
 				2A0D498A1D05AE3500CD5850 /* AppDelegate.swift */,
-				2A690C471E2285810074816B /* Settings.bundle */,
 				2A0D498C1D05AE3500CD5850 /* MainViewController.swift */,
 				2A85B7D81DF58562004CEA82 /* FirstViewController.swift */,
 				2A0D498E1D05AE3600CD5850 /* Main.storyboard */,
 				2A0D49941D05AE3600CD5850 /* Assets.xcassets */,
 				2A0D49961D05AE3600CD5850 /* LaunchScreen.storyboard */,
 				2A0D49991D05AE3600CD5850 /* Info.plist */,
+				2A690C471E2285810074816B /* Settings.bundle */,
 				2A0D49911D05AE3600CD5850 /* obminka.xcdatamodeld */,
 			);
 			path = obminka;
@@ -264,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A690C481E2285810074816B /* Settings.bundle in Resources */,
+				2A690C4A1E2285EB0074816B /* Settings-Watch.bundle in Resources */,
 				2A0D49981D05AE3600CD5850 /* LaunchScreen.storyboard in Resources */,
 				2A0D49951D05AE3600CD5850 /* Assets.xcassets in Resources */,
 				2A0D49901D05AE3600CD5850 /* Main.storyboard in Resources */,
@@ -274,6 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A690C4B1E2285EB0074816B /* Settings-Watch.bundle in Resources */,
 				2AF60F381DE77E3300309836 /* Stickers.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
