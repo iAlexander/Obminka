@@ -1,5 +1,5 @@
 [![Language](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat)](#)
-![Platform](https://img.shields.io/badge/Platform-iOS 10.0 | watchOS 3.1-lightgray.svg?style=flat)
+[![Platform](https://img.shields.io/badge/Platform-iOS 10.0 | watchOS 3.1-lightgray.svg?style=flat)](#)
 [![Devices](https://img.shields.io/badge/Devices-iPhone | Watch-DAA522.svg?style=flat)](#)
 [![Version](https://img.shields.io/badge/App version-Alpha-red.svg?style=flat)](#)
 
