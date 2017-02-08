@@ -1,6 +1,6 @@
 //
 //  MainViewController.swift
-//  obminka
+//  Obminka
 //
 //  Created by Alexander Iashchuk on 6/6/16.
 //  Copyright © 2015 Alexander Iashchuk (iAlexander), https://iashchuk.com

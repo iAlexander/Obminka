@@ -1,6 +1,6 @@
 //
 //  FirstViewController.swift
-//  obminka
+//  Obminka
 //
 //  Created by Alexander Iashchuk on 12/5/16.
 //  Copyright © 2015 Alexander Iashchuk (iAlexander), https://iashchuk.com

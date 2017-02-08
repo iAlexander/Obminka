@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  obminka
+//  Obminka
 //
 //  Created by Alexander Iashchuk on 12/21/15.
 //  Copyright © 2015 Alexander Iashchuk (iAlexander), https://iashchuk.com
