@@ -3,7 +3,7 @@
 //  Obminka
 //
 //  Created by Alexander Iashchuk on 12/5/16.
-//  Copyright © 2015 Alexander Iashchuk (iAlexander), https://iashchuk.com
+//  Copyright © 2015-2017 Alexander Iashchuk (iAlexander), https://iashchuk.com
 //
 //  This application is released under the MIT license. All rights reserved.
 //
