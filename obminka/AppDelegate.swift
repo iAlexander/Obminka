@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Obminka (Обмінка - Сервіс для легкого обміну валюти)
+//  Obminka (₴ Обмінка - Сервіс для легкого обміну валюти)
 //
 //  Created by Alexander Iashchuk on 12/21/15.
 //  Copyright © 2015 Alexander Iashchuk (iAlexander), https://iashchuk.com
