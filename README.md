@@ -14,7 +14,7 @@
 ##<a name="description">Description:</a>
 
 ```Obminka``` is the innovative p2p service, that helps anyone to exchange money with best rates.  
-This iOS application project is still in ```Alpha``` development phase, i currently work on the server side.
+This iOS application project is still in ```Alpha``` development phase, i currently work on the server side of the application.
 
 ##<a name="license">License:</a>
 
