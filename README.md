@@ -6,7 +6,7 @@
 
 [![Obminka (Обмінка) - First Ukrainian P2P currency exchange service]  (https://raw.githubusercontent.com/iAlexander/Obminka/master/Header.jpg)](https://ialexander.me/2h1Lmp0)
 
-## Obminka (Обмінка) - First Ukrainian P2P currency exchange service
+## Obminka (Обмінка) - First Ukrainian P2P currency exchange service - [obminka.com](https://twitter.com/iAlexander13)
 1. [Description](#description)
 2. [License](#license)
 3. [Contact](#contact)
