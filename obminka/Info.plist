@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>uk</string>
 	<key>CFBundleDisplayName</key>
-	<string>₴ Обмінка</string>
+	<string>Обмінка</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
