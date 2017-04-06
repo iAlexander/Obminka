@@ -1,7 +1,7 @@
 [![Language](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat)](#)
 [![Platform](https://img.shields.io/badge/iOS-10.0-lightgray.svg?style=flat)](#)
 [![Platform](https://img.shields.io/badge/watchOS-3.1-lightgray.svg?style=flat)](#)
-[![Devices](https://img.shields.io/badge/Devices-iPhone_and_Watch-DAA522.svg?style=flat)](#)
+[![Devices](https://img.shields.io/badge/Devices-iPhone_and_Watch-green.svg?style=flat)](#)
 [![Version](https://img.shields.io/badge/App_version-Alpha-red.svg?style=flat)](#)
 [![AppStore](https://img.shields.io/badge/App_Store-Soon...-red.svg?style=flat)](https://ialexander.me/2h1Lmp0)
 
