@@ -1,10 +1,10 @@
 [![Language](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat)](#)
-[![Platform](https://img.shields.io/badge/Platform-iOS_10.0_|_watchOS 3.1-lightgray.svg?style=flat)](#)
+[![Platform](https://img.shields.io/badge/Platform-iOS_10.0_|_watchOS_3.1-lightgray.svg?style=flat)](#)
 [![Devices](https://img.shields.io/badge/Devices-iPhone_|_Watch-DAA522.svg?style=flat)](#)
 [![Version](https://img.shields.io/badge/App_version-Alpha-red.svg?style=flat)](#)
 [![AppStore](https://img.shields.io/badge/App_Store-Soon...-red.svg?style=flat)](https://ialexander.me/2h1Lmp0)
 
-[![Obminka (Обмінка) - First Ukrainian P2P currency exchange service]  (https://raw.githubusercontent.com/iAlexander/Obminka/master/Header.jpg)](https://ialexander.me/2h1Lmp0)
+[![Obminka - First Ukrainian P2P currency exchange service](https://raw.githubusercontent.com/iAlexander/Obminka/master/Header.jpg)](https://ialexander.me/2h1Lmp0)
 
 ## Obminka - First Ukrainian P2P currency exchange service - [obminka.com](https://twitter.com/iAlexander13)
 1. [Description](#description)
