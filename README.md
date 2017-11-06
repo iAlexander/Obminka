@@ -1,4 +1,4 @@
-[![Language](https://img.shields.io/badge/Swift-3-orange.svg?style=flat)](#)
+[![Language](https://img.shields.io/badge/Swift-4-orange.svg?style=flat)](#)
 [![Platform](https://img.shields.io/badge/iOS-10.0-lightgray.svg?style=flat)](#)
 [![Platform](https://img.shields.io/badge/watchOS-3.0-lightgray.svg?style=flat)](#)
 [![Devices](https://img.shields.io/badge/Devices-iPhone_and_Watch-green.svg?style=flat)](#)
@@ -27,3 +27,5 @@ Copyright © 2015-2017 <a href="https://iashchuk.com">Alexander Iashchuk</a>.
 You can read, follow or drop me a line on my personal Twitter account - [@iAlexander13](https://twitter.com/iAlexander13).  
 If you find any issues on the project, you can open a ticket.  
 Pull requests are also welcome!
+
+[![iAlexander - Нотатки громадянина України](https://raw.githubusercontent.com/iAlexander/Homepok/master/Footer.jpg)](https://twitter.com/iAlexander13)
