@@ -3,7 +3,7 @@
 [![Platform](https://img.shields.io/badge/watchOS-3.0-lightgray.svg?style=flat)](#)
 [![Devices](https://img.shields.io/badge/Devices-iPhone_and_Watch-green.svg?style=flat)](#)
 [![Version](https://img.shields.io/badge/App_version-Alpha-red.svg?style=flat)](#)
-[![AppStore](https://img.shields.io/badge/App_Store-Soon...-red.svg?style=flat)](https://ialexander.me/2h1Lmp0)
+[![AppStore](https://img.shields.io/badge/App_Store-Soon...-red.svg?style=flat)](http://ialexander.me/2h1Lmp0)
 
 [![Obminka - First Ukrainian P2P currency exchange service](https://raw.githubusercontent.com/iAlexander/Obminka/master/Header.jpg)](https://ialexander.me/2h1Lmp0)
 
@@ -20,7 +20,7 @@ This iOS application project is still in ```Alpha``` development phase, i curren
 ## <a name="license">License:</a>
 
 ```Obminka``` is released under the MIT license. Check the ```LICENSE``` file for details.  
-Copyright © 2015-2017 <a href="https://iashchuk.com">Alexander Iashchuk</a>.
+Copyright © 2015-2017 <a href="http://iashchuk.com">Alexander Iashchuk</a>.
 
 ## <a name="contact">Contact:</a>
 
